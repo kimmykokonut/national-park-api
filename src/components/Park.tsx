@@ -28,7 +28,7 @@ const Park = (props: ParkProps) => {
                 : ''}
             <CardContent
                 style={{ marginTop: 'auto' }}
-                sx={{ height: 200 }}>
+                sx={{ height: 300 }}>
                 <Typography gutterBottom variant="h5" component="div">
                     {park.fullName}
                 </Typography>
